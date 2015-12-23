@@ -54,6 +54,7 @@ alias ffd="fff; sudo bash < <(curl -s  https://raw.githubusercontent.com/452/shs
 alias fuse-logs-list="ls -l $FUSE_HOME/data/log/"
 alias d="cd /work/fuse/"
 alias update-bash="source <(curl -s  https://raw.githubusercontent.com/452/shscripts/master/.bashrc)"
+alias ls="ls -lh"
 alias x="netstat -lntu"
 alias g="ntsysv"
 alias gl="git log --oneline"
