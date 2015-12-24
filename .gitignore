@@ -1,2 +1,8 @@
 *~*
 *.swp
+bin
+xml
+properties/*.properties
+.settings
+.classpath
+.project

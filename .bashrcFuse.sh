@@ -25,6 +25,7 @@ features:addurl mvn:com.strikersoft.tetra/tetra-email/1.0.0/xml/features
 features:addurl mvn:com.strikersoft.tetra/tetra-print-report/1.0.0/xml/features
 features:addurl mvn:com.strikersoft.tetra/tetra-audit-trail/1.0.0/xml/features
 features:addurl mvn:com.strikersoft.tetra/tetra-pops-workflow/1.0.0/xml/features
+features:addurl mvn:com.strikersoft.tetra/tetra-alphatracker/1.0.0/xml/features
 features:addurl mvn:com.strikersoft.tetra/tetra-prism/1.0.0/xml/features
 features:addurl mvn:com.strikersoft.tetra/tetra-karaf/1.0.0/xml/features
 features:install tetra-integration
@@ -42,5 +43,6 @@ features:install tetra-email
 features:install tetra-print-report
 features:install tetra-audit-trail
 features:install tetra-pops-workflow
+features:install tetra-alphatracker
 features:install tetra-prism
 } ;
