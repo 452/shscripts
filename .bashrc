@@ -14,6 +14,7 @@ fi
 echo "**************************************************************"
 echo "* Welcome ${GREEN}}RooT{${END} or $USER"
 echo "* Host: $(hostname)"
+echo "* eth0: $(ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{print $1}')"
 echo "* Using FUSE_HOME: $FUSE_HOME"
 echo "* Using JAVA_HOME: $JAVA_HOME"
 echo "* Java Version: $(java -version 2>&1 | awk '/version/{print $NF}')"
