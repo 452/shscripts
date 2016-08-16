@@ -1,4 +1,4 @@
-if [ "$TERM" == "xterm" ]; then
+if [ "$TERM" == "xterm-256color" ]; then
 RED=`tput setaf 1`
 GREEN=`tput setaf 2`
 END=`tput sgr0`
